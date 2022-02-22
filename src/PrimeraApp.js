@@ -7,8 +7,8 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
 
     return (
         <>
-            <h1> { props.saludo} </h1>
-            <p> subtitulo </p>
+            <h1> {saludo} </h1>
+            <p> {subtitulo} </p>
         </>
         
     );
@@ -16,8 +16,8 @@ const PrimeraApp = ({ saludo, subtitulo }) => {
 
 }
 
-PrimeraApp.prototype = {
-    saludo: PropTypes.string.string.isRequired,
+PrimeraApp.protoTypes = {
+    saludo: PropTypes.string.isRequired
 
 }
 
