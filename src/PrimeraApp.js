@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const PrimeraApp = ({ saludo = 'Hola Mundo'}) => {
+const PrimeraApp = ({ saludo }) => {
 
+   
 
     return (
         <>
