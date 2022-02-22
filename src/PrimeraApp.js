@@ -1,12 +1,11 @@
 import React from "react";
 
-const PrimeraApp = () => {
+const PrimeraApp = ({ saludo = 'Hola Mundo'}) => {
 
-    const saludo = 'Hola Mundo';
 
     return (
         <>
-            <h1> { saludo} </h1>
+            <h1> { props.saludo} </h1>
             <p>Mi primera aplicacion </p>
         </>
         

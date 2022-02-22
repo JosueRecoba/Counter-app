@@ -7,4 +7,4 @@ import './index.css';
 
 const dicRoot = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp /> , divRoot);
+ReactDOM.render(<PrimeraApp saludo="Hola, soy Josue " /> , divRoot);
